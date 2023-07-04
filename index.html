@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Permissions-Policy" content="interest-cohort=()" />
+
+    <title>Personal Portfolio Website</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"/>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="max-width">
+        <div class="logo slide-in-left">
+          <a href="#">Port<span>folio.</span></a>
+        </div>
+      </div>
+      <ul class="menu slide-in-top">
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <!-- <li><a href="#skills">Experience</a></li> -->
+        <li><a href="#experience">Education</a></li>
+        <li><a href="#services">Projects</a></li>
+        <li><a href="#contact">Contact me</a></li>
+      </ul>
+      <div class="menu-btn">
+        <i class="fas fa-stream"></i>
+      </div>
+    </nav>
+    <!-- Home Section -->
+    <section class="home" id="home">
+      <div class="max-width">
+        <div class="home-content">
+          <div class="text-1">Hello, my name is</div>
+          <div class="text-2 water-drop">Shivansh Maheshwari</div>
+          <div class="text-3">And I'm a <span class="typing"></span></div>
+          <div class="home-btn">
+            <a href="#" class="slide-in-diagonal-left" id="hire-me-link"
+              >Hire me</a
+            >
+            <a
+              href="https://drive.google.com/file/d/1sKDh5sjLIAoUdWXfgS4Yd5NyDwlgIFfO/view?usp=share_link"
+              target="_blank"
+              class="slide-in-diagonal-right"
+              >Resume</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Section -->
+    <section class="about reveal" id="about">
+      <div class="max-width">
+        <h2 class="title">About me</h2>
+        <div class="about-content">
+          <div class="column left">
+            <img src="images/profile-1.jpg" alt="" />
+          </div>
+          <div class="column right">
+            <div class="text">
+              I'm Shivam and I'm a <span class="typing-2"></span>
+            </div>
+            <p>
+              Welcome to my portfolio website! <br>
+              I'm a B.Tech CSE student with a passion for technology. I have a strong background in programming, including Python, C++ and Java. I enjoy solving complex problems and have experience with frameworks like Tensorflow and PyTorch. Take a look at my projects and experiences to learn more about my skills and interests. <br>Let's connect and explore opportunities together!
+            </p>
+            <a
+              href="https://drive.google.com/file/d/1sKDh5sjLIAoUdWXfgS4Yd5NyDwlgIFfO/view?usp=share_link"
+              target="_blank"
+              >Download CV</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Skills Section -->
+    <section class="skills reveal" id="skills">
+      <div class="max-width">
+        <h2 class="title">My skills</h2>
+        <div class="skills-content">
+          <div class="column left">
+            <div class="text">My creative <br><span>skills</span> & <span>experiences.</span></div>
+            <p>I possess a diverse set of skills that make me a versatile and capable B.Tech CSE student. Proficient in programming languages like Python, Java, and C++. <br> I have a strong foundation in deep learning and machine learning frameworks such as TensorFlow and PyTorch. I am skilled in applying various machine learning algorithms for regression, classification, and clustering tasks, and have experience in computer vision techniques like image classification and object detection. With a solid background in data analysis and visualization using libraries like Pandas, NumPy, Matplotlib, and Seaborn, I can effectively analyze and present insights from complex datasets. Furthermore, I have practical experience in web development using HTML, CSS, JavaScript. With a strong foundation in version control using Git and GitHub, I am able to collaborate efficiently and maintain code integrity. <br> With a problem-solving mindset, strong teamwork abilities, and a commitment to continuous learning, I am well-equipped to take on challenging projects and contribute effectively to the field of computer science and machine learning.
+            </p>
+            <a href="#">Read more</a>
+          </div>
+          <div class="column right">
+            <div class="bars">
+              <div class="info">
+                <span>Java</span>
+                <span>90%</span>
+              </div>
+              <div class="line html"></div>
+            </div>
+            <div class="bars">
+              <div class="info">
+                <span>PYTHON</span>
+                <span>80%</span>
+              </div>
+              <div class="line css"></div>
+            </div>
+            <div class="bars">
+              <div class="info">
+                <span>JavaScript</span>
+                <span>60%</span>
+              </div>
+              <div class="line js"></div>
+            </div>
+            <div class="bars">
+              <div class="info">
+                <span>Machine Learnig</span>
+                <span>80%</span>
+              </div>
+              <div class="line php"></div>
+            </div>
+            <div class="bars">
+              <div class="info">
+                <span>Web Development</span>
+                <span>70%</span>
+              </div>
+              <div class="line mysql"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Education Section -->
+    <section class="experience reveal" id="experience">
+      <div class="max-width">
+        <h2 class="title">Education</h2>
+        <div class="timeline">
+    
+        <div class="container left reveal">
+          <div class="content">
+            <div class="tag">
+              <h2>Kalinga Insitute of Industrial Technology</h2>
+            </div>
+            <div class="desc">
+                <h4><i class="fa fa-map-marker"></i> Bhubaneswar</h4>
+                <h3>B.Tech in Computer Science and Engineering</h3>
+                <p>2020 - present </p>
+                <p>CGPA : 8.70 <span>(till 6th Semester)</span></p>
+            </div>
+          </div>
+        </div>
+    
+          <div class="container right reveal">
+            <div class="content">
+              <div class="tag">
+                <h2>Riverdale High School</h2>
+              </div>
+              <div class="desc">
+                <h4><i class="fa fa-map-marker"></i> Aurangabad</h4>
+                  <h3>Class 12th , CBSE</h3>
+                  <p>2019 - 2020</p>
+                  <p>Percentage : 75%</p>
+              </div>
+            </div>
+          </div>
+    
+          <div class="container left reveal">
+            <div class="content">
+              <div class="tag">
+                <h2>Escorts World School</h2>
+              </div>
+              <div class="desc">
+                <h4><i class="fa fa-map-marker"></i> Kanpur</h4>
+                  <h3>Class 10th , CBSE</h3>
+                  <p>2007 - 2018</p>
+                  <p>Percentage : 80%</p>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+  </section>
+
+    <!-- Projects Section -->
+    <section class="services reveal" id="services">
+      <div class="max-width">
+          <h2 class="title">My Projects</h2>
+          <div class="serv-content">
+              <div class="card">
+                  <div class="box">
+                      <i class="fas fa-paint-brush"></i>
+                      <div class="text">Comparative Analysis of Various GAN Model</div>
+                      <p>Done a comprehensive overview of GANs with the help of MNIST dataset to evaluate the efficiency of different variants of the model architecture, and analyse the metrics and loss functions commonly used for evaluating GAN performance. <br>The survey ultimately aims to guide future researchers in the field by summarizing the evolution and performance of the most promising GAN variants.</p>
+                  </div>
+              </div>
+              <div class="card">
+                  <div class="box">
+                      <i class="fas fa-chart-line"></i>
+                      <div class="text">Restaurant based webpage design using Bootstrap 5</div>
+                      <p>Created a visually appealing and user-friendly landing page for a food restaurant using HTML, CSS, JavaScript, and Bootstrap 5. Developed a responsive design that seamlessly adapts to various screen sizes, ensuring an optimal viewing experience across devices. Implemented modern design trends and optimized the layout for intuitive navigation and easy access to key information.</p>
+                  </div>
+              </div>
+              <div class="card">
+                  <div class="box">
+                      <i class="fas fa-code"></i>
+                      <div class="text">Digit Classification using CNN</div>
+                      <p>Developed a robust digit classification model using TensorFlow, a widely-used deep learning framework. Utilized the MNIST dataset, a benchmark dataset in the field of machine learning, consisting of 60,000 labeled training images and 10,000 test images of handwritten digits. Preprocessed the dataset by normalizing pixel values and transforming the images into a suitable format for model training. Implemented a convolutional neural network (CNN) architecture, leveraging TensorFlow's flexible APIs to construct layers, apply activation functions, and define pooling operations.</p>
+                  </div>
+              </div>
+            </div>
+          </div>
+      </div>
+  </section>
+
+<!--Contact me-->
+<section class="contact reveal" id="contact">
+    <div class="max-width">
+        <h2 class="title">Contact me</h2>
+    </div>
+    <div class="container">
+      <div class="contact-info reveal">
+        <div class="box">
+            <div class="icon"><i class="fa fa-map-marker"></i></div>
+            <div class="text">
+                <h3>Address</h3>
+                <p>Aurangabad, Maharashtra</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="icon"><i class="fa fa-phone"></i></div>
+            <div class="text">
+                <h3>Phone</h3>
+                <p>+919950593333</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="icon"><i class="fa fa-envelope"></i></div>
+            <div class="text">
+                <h3>Email</h3>
+                <p>shivanshmaheshwari99@gmail.com</p>
+            </div>
+        </div>
+      </div>
+      <div class="contact-form reveal">
+        <form onsubmit="sendMail(event)">
+            <h2>Send Message</h2>
+            <div class="inputBox">
+              <input type="text" id="name" required="required">
+              <span>Full Name</span>
+            </div>
+            <div class="inputBox">
+              <input type="email" id="email" required="required">
+              <span>Email</span>
+            </div>
+            <div class="inputBox">
+              <textarea id="message" required="required"></textarea>
+              <span>Type your Message...</span>
+            </div>
+            <div class="inputBox">
+              <input type="submit" value="Send">
+            </div>
+          </form>
+          
+      </div>
+    </div>
+  </section>
+  
+
+    <!-- Footer Section -->
+
+    <footer class="footer hidden">
+        <p>&copy; 2023-present <b>Portfolio</b> &middot; All Rights Reserved &middot; Made with 💖 & 🍕 by <b>༒Shivansh༒</b></p>
+    </footer>
+
+
+    <script src="main.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+  
+  </body>
+</html>
