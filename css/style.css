@@ -38,6 +38,7 @@ html{
 .navbar.sticky{
     /* background: linear-gradient(90deg, #0082e6 0%, #00c6fb 100%); */
     background-color: rgba(0, 130, 230, 0.7);
+    /* background-color: black; */
     padding: 15px 0;
     box-shadow: 0 5px 30px rgba(0,0,0,0.5);
     transition: all 0.3s ease;
@@ -55,7 +56,7 @@ html{
 
 }
 .section-navbar {
-    background: linear-gradient(90deg, #00c6fb 0%,  #0082e6 100%);
+    background: linear-gradient(90deg, #282a36 0%,  #0082e6 100%);
 }
 .max-width{
     max-width: 100%;
@@ -110,6 +111,7 @@ html{
     font-family: 'Ubuntu', sans-serif;
     position: relative;
     color: #fff;    
+    /* color: black; */
 }
 .home .max-width{
     margin:auto 0 auto 40px;
@@ -128,6 +130,7 @@ html{
 }
 .home .home-content .text-3 span{
     color: #00bcd4;
+    /* color: black; */
     font-weight: 500;
 }
 .home .home-content a{
@@ -809,7 +812,7 @@ html{
 .footer {
     font-family: 'Poppins', sans-serif;
     text-align: center;
-    background: linear-gradient(90deg, #00c6fb 0%,  #0082e6 100%);
+    background: linear-gradient(90deg, #282a36 0%,  #0082e6 100%);
     z-index: 998;
     position: fixed;
     left: 0;
@@ -985,7 +988,7 @@ html{
     display: inline-block;
     font-size: 3rem;
     font-weight: 700;
-    color: #00bcd4;
+    color: #ccc;
     /* text-shadow: 0 0 10px rgba(0, 188, 212, 0.5); */
     animation: water-drop 1s ease-in-out infinite;
     animation-delay: .3s;
