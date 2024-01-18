@@ -78,7 +78,7 @@ document
   .getElementById("hire-me-link")
   .addEventListener("click", function (event) {
     event.preventDefault();
-    window.location.href = "mailto:shivam21mishra08@gmail.com";
+    window.location.href = "mailto:shivanshmaheshwari99@gmail.com";
   });
 
 window.addEventListener("scroll", reveal);
@@ -105,7 +105,7 @@ function sendMail(event) {
 
   Email.send({
     SecureToken: "09b84e2e-e900-411d-ba95-8b160630be54",
-    To: "20051028@kiit.ac.in",
+    To: "shivanshmaheshwari99@gmail.com",
     From: document.getElementById("email").value,
     Subject: "New Message from " + document.getElementById("name").value,
     Body:
